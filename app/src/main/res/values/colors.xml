@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="buttonColor">#16cc99</color>
+
+
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="buttonTextColor">#27becf</color>
+    <color name="colorInStudy">#05a18c</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="tealColor">#00695c</color>
+    <color name="black">#000000</color>
+    <color name="orange">#ffbb33</color>
+    <color name="red">#ffff4444</color>
+    <color name="maroon">#900C3F </color>
+    <color name="orangeDark">#ffff8800</color>
+    <color name="trans">#00000000 </color>
+    <color name="purple">#800080 </color>
+    <color name="hotpink">#FF0080 </color>
+    <color name="darkmaron">#581845 </color>
+    <color name="darkmaron2">#5E4E4A  </color>
+    <color name="darkwhite">#D0D3D4  </color>
+    <color name="brid_gree">#D1F2EB  </color>
+    <color name="ass">#717D7E  </color>
+
+
+
+
+    <color name="actionBarColor">#34485e</color>
+    <color name="myFavouriteColor">#19bc9c</color>
+    <color name="backgroundColor">#ebebeb</color>
+</resources>

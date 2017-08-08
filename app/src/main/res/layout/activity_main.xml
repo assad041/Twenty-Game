@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/purple"
+android:orientation="vertical"
+tools:context="com.asd_soft.assaduzzaman_noor.twentygame.MainActivity">
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:padding="5dp"
+    android:text="Twenty Game"
+    android:textStyle="bold"
+    android:textSize="28sp"
+    android:id="@+id/textView"
+    android:textColor="@color/white"
+    android:gravity="center_horizontal" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:id="@+id/scrollView"
+    android:gravity="center" >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="New Game"
+        android:onClick="ng"
+        android:background="@drawable/selector_for_quiz"
+        >
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="difficalty"
+        android:onClick="difficalty"
+        android:background="@drawable/selector_for_quiz"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="How To Play"
+        android:onClick="hp"
+        android:background="@drawable/selector_for_quiz"
+        >
+
+    </Button>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    >
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="Exit"
+        android:onClick="exit"
+        android:background="@color/trans"
+        >
+
+    </Button>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="Play"
+        android:onClick="play"
+        android:background="@color/trans"
+        >
+
+    </Button>
+
+</LinearLayout>
+
+
+</LinearLayout>
